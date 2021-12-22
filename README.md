@@ -1,5 +1,5 @@
 # Logic Gate Calculator
-Implementation of Logic Gate Calculator - in JAVA language.\
+
 System is able to calculate the value of a given simple logical formula.\
 for example:\
 true AND false = false\
