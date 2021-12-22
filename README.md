@@ -6,16 +6,19 @@ true AND false = false\
 AND[OR[false, true], OR[false, NOT[true]], true] = false
 
 # OOP Principles
-<h3 align="left">Abstraction:</h3>
+1.Abstraction:<br>
 A logical formula consists of several gates. 
 There are different kinds of gates, but they are characterized by some same conceptual idea.<br>
 The abstract super-class Gate defines a generalization for these ideas.<br>
 This enables each sub-class to implement it as it suits to it.
-<h3 align="left">Encapsulation:</h3>
+
+2.Encapsulation:<br>
 Expressed by having private fields and some protected methods.
-<h3 align="left">Inheritance:</h3>
+
+3.Inheritance:<br>
 The different types of gates described in the system are inheriting methods and a field from the super-class Gate.
-<h3 align="left">Polymorphism:</h3>
+
+4.Polymorphism:<br>
 The System is relaying on run-time polymorphism by sub-classes overriding the super-class definitions.
 
 # OOP Patterns:
