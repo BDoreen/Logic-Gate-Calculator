@@ -22,9 +22,9 @@ The different types of gates described in the system are inheriting methods and 
 The System is relaying on run-time polymorphism by sub-classes overriding the super-class definitions.
 
 # OOP Patterns:
-<h3 align="left">Singleton Pattern</h3>
+1. Singleton Pattern<br>
 The gates "TrueGate" and "FalseGate"
-<h3 align="left">Strategy Pattern</h3>
+2. Strategy Pattern<br>
 The class Gate implements the abstract method calc(), which returns the value of the gate.<br>
 Inside calc() there is a call for abstract method func() which is implemented differently by each of Gates' sub-classes.<br>
 This enables calc() to decide of an algorithm during run-time.<br><br>
