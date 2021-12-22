@@ -10,7 +10,7 @@ AND[OR[false, true], OR[false, NOT[true]], true] = false
 A logical formula consists of several gates. 
 There are different kinds of gates, but they are characterized by some same conceptual idea.<br>
 The abstract super-class Gate defines a generalization for these ideas.<br>
-This enables each sub-class to implement it as it suits to it.
+This enables each sub-class to implement it as it suits to her.
 
 2. Encapsulation:<br>
 Expressed by having private fields and some protected methods.
