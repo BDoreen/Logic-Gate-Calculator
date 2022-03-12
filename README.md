@@ -30,3 +30,5 @@ Inside calc() there is a call for abstract method func() which is implemented di
 This enables calc() to decide of an algorithm during run-time.<br><br>
 
 to be noted that the formula is calculated by the method simplify() in a recursive manner.
+
+![alt text](https://i.ibb.co/mbQqQj4/tar3-Output.png)
